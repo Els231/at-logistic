@@ -58,6 +58,8 @@ export default function Page() {
 
     <section className="faq-section"><div><p className="eyebrow">08 / PREGUNTAS FRECUENTES</p><h2>Respuestas<br /><span>claras.</span></h2></div><div className="faq-list">{faq.map(question => <details key={question}><summary>{question}<span>+</span></summary><p>Información próximamente disponible. Esta respuesta podrá administrarse desde el futuro panel de AT Logistics.</p></details>)}</div></section>
 
+    <section className="policy-section" id="politica"><div><p className="eyebrow">09 / POLÍTICA DE RETIRO</p><h2>Retira tu paquete<br /><span>a tiempo.</span></h2></div><div className="policy-card"><b>Paquetes no reclamados</b><p>Los paquetes deben retirarse dentro de los tres meses posteriores a su llegada y notificación. Transcurrido ese plazo sin que el cliente realice el retiro, el paquete se considerará abandonado y AT Logistics podrá tomarlo como pago por la ausencia de retiro.</p><small>Te recomendamos mantener tus datos de contacto actualizados y atender nuestras notificaciones.</small></div></section>
+
     <footer><a className="logo" href="#inicio"><b>AT</b><span>LOGISTICS</span></a><p>Soluciones logísticas internacionales eficientes, seguras y transparentes.</p><div><a href="https://www.instagram.com/atlogisticsnicaragua" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.facebook.com/share/1MA1CDRKZJ/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook ↗</a><a href="https://www.youtube.com/@ATLogisticsNicaragua" target="_blank" rel="noreferrer">YouTube ↗</a></div><small>© 2026 AT Logistics · Información sujeta a actualización</small></footer>
   </main>
 }
